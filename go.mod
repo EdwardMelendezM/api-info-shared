@@ -1,4 +1,4 @@
-module api-shared
+module info-code-api-shared
 
 go 1.20
 
