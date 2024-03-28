@@ -1,4 +1,4 @@
-module github.com/EdwardMelendezM/info-code-api-shared
+module github.com/EdwardMelendezM/info-code-api-shared-v1
 
 go 1.20
 
