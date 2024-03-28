@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2eab4679-78d2-4c72-9382-c8deb8e45921" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error-log/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error-log/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/home/mele-dev/dev/microservices/repositories/api-shared",
     "node.js.detected.package.eslint": "true",
