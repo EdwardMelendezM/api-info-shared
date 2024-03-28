@@ -11,7 +11,7 @@ import (
 )
 
 // PanicRecovery Error recovery panic in goroutine
-func PanicRecovery(ctx context.Context, err *error) {
+func PanicRecovery(ctx *context.Context, err *error) {
 	if r := recover(); r != nil {
 		stackTrace := getStackTrace()
 		if err != nil {
@@ -26,7 +26,7 @@ func PanicRecovery(ctx context.Context, err *error) {
 }
 
 // PanicThreadRecovery Error recovery in thread
-func PanicThreadRecovery(ctx context.Context, err *error, wg *sync.WaitGroup) {
+func PanicThreadRecovery(ctx *context.Context, err *error, wg *sync.WaitGroup) {
 	if r := recover(); r != nil {
 		stackTrace := getStackTrace()
 		if err != nil {
@@ -50,11 +50,11 @@ func getStackTrace() string {
 	return string(buf[:n])
 }
 
-func getRequestIDFromContext(ctx context.Context) string {
+func getRequestIDFromContext(ctx *context.Context) string {
 	if ctx == nil {
 		return ""
 	}
-	if requestID, ok := ctx.Value("request_id").(string); ok {
+	if requestID, ok := (*ctx).Value("request_id").(string); ok {
 		return requestID
 	}
 	return ""
