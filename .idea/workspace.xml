@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2eab4679-78d2-4c72-9382-c8deb8e45921" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/rest/handler_rest.go" beforeDir="false" afterPath="$PROJECT_DIR$/rest/handler_rest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/domain/auth_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/domain/auth_usecase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/infrastructure/jwt/auth_func_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/infrastructure/jwt/auth_jwt_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/interface/rest/auth_middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/usecase/auth_func_usecase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/usecase/auth_usecase.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +97,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth/interface/rest" />
+      <recent name="$PROJECT_DIR$/auth" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -111,7 +125,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-e58f7cfedaf7-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.14015.113" />
+        <option value="bundled-gosdk-2946fb9b3188-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.15026.17" />
       </set>
     </attachedChunks>
   </component>
