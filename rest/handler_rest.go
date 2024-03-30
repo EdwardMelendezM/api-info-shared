@@ -15,20 +15,20 @@ func Json(c *gin.Context, httpStatus int, res any) {
 }
 
 func ErrJson(c *gin.Context, err error) {
-	smartErr, ok := err.(errDomain.CustomError)
+	customErr, ok := err.(errDomain.CustomError)
 	if ok {
-		c.JSON(smartErr.HttpStatus, smartErr)
+		c.JSON(customErr.HttpStatus, customErr)
 		// REVIEW save log
 		//ctx := c.Request.Context()
 		return
 	}
-	smartErr2, ok := err.(*errDomain.CustomError)
+	customErr2, ok := err.(*errDomain.CustomError)
 	if ok {
-		c.JSON(smartErr2.HttpStatus, smartErr2)
+		c.JSON(customErr2.HttpStatus, customErr2)
 	} else {
-		smartErr = errDomain.ErrUnknown
-		smartErr.Raw = err.Error()
-		c.JSON(http.StatusInternalServerError, smartErr)
+		customErr = errDomain.ErrUnknown
+		customErr.Raw = err.Error()
+		c.JSON(http.StatusInternalServerError, customErr)
 	}
 	// REVIEW save log
 	//ctx := c.Request.Context()
