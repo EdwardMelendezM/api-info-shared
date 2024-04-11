@@ -1,5 +1,4 @@
-module github.com/EdwardMelendezM/info-code-api-shared-v1
-
+module github.com/EdwardMelendezM/api-info-shared
 go 1.20
 
 require (
