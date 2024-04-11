@@ -1,6 +1,6 @@
 package jwt
 
-import "github.com/EdwardMelendezM/info-code-api-shared-v1/auth/domain"
+import "github.com/EdwardMelendezM/api-info-shared/auth/domain"
 
 type authJwtRepo struct{}
 

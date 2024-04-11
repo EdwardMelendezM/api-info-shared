@@ -3,7 +3,7 @@ package usecase
 import (
 	"time"
 
-	"github.com/EdwardMelendezM/info-code-api-shared-v1/auth/domain"
+	"github.com/EdwardMelendezM/api-info-shared/auth/domain"
 )
 
 type authUseCase struct {

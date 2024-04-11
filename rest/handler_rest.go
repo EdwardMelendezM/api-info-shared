@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	errDomain "github.com/EdwardMelendezM/info-code-api-shared-v1/error-log"
+	errDomain "github.com/EdwardMelendezM/api-info-shared/error-log"
 )
 
 func Json(c *gin.Context, httpStatus int, res any) {

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eab4679-78d2-4c72-9382-c8deb8e45921" name="Changes" comment="" />
+    <list default="true" id="2eab4679-78d2-4c72-9382-c8deb8e45921" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/auth/infrastructure/jwt/auth_jwt_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/auth/infrastructure/jwt/auth_jwt_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/interface/rest/auth_middleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/auth/interface/rest/auth_middleware.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/usecase/auth_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/auth/usecase/auth_usecase.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/connect.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/connect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/handler_rest.go" beforeDir="false" afterPath="$PROJECT_DIR$/rest/handler_rest.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

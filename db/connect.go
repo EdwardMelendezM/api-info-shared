@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/EdwardMelendezM/info-code-api-shared-v1/config"
+	"github.com/EdwardMelendezM/api-info-shared/config"
 )
 
 func InitClients(cfg config.Configuration) (err error) {
