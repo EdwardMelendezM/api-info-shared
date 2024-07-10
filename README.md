@@ -4,3 +4,4 @@
 - Db instance
 - Rest response
 - Auth with token
+- Validations
